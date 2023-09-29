@@ -1,8 +1,17 @@
 #!/usr/bin/env bash
 #333
-count=0
-until (( count >= 10 ))
+counter=0
+
+ 
+
+until [ $counter -eq 10 ]
+
 do
+
     echo "Best School."
-   ((count++))
+
+ 
+
+    ((counter++))
+
 done
